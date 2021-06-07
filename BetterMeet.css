@@ -1,0 +1,77 @@
+/* ==UserStyle==
+@name           Better Meet
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    makes google meet better
+@author         guilo_ / guiloj / @guilo_osu
+==/UserStyle== */
+
+@-moz-document domain("meet.google.com") {
+.zWfAib {
+    background: #0000
+    /*padding-top: 60px !important;*/
+}
+.zWfAib.PvRhvb > .Zf0RDc[data-allocation-index="0"] {
+    background: #0000
+}
+.zWfAib:not(.zTETae):not(.n9oEIb) > .Zf0RDc {
+    background: #0000;
+    border-radius: 0px;
+    position: absolute;
+    border: 0px solid #0000;
+    right: 0px;
+}
+* {
+    color: rgb(255, 255, 255) !important;
+}
+.tC2Wod {
+    border-radius: 0px;
+    border: 4px solid rgb(198, 202, 210);
+    box-sizing: border-box;
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+.IisKdb {
+    BACKGROUND-COLOR: rgb(198, 202, 210)
+}
+.p2ZbV {
+    /*will overwrite a google.com style/ change the gif to your own if desired*/
+    -webkit-font-smoothing: antialiased;
+    background: url("https://github.com/guiloj/BetterMeet/blob/1.0.0/style/BG.gif?raw=true") center no-repeat !important;
+    direction: ltr;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+.xPh1xb.P9KVBf {
+    background-color: rgb(0 0 0 / 0%);
+}
+.P9KVBf .IxCbn {
+    background-color: rgb(95 99 104);
+    border-color: #0000;
+}
+.MON6Vd {
+    background-color: rgb(214 214 214 / 0%);
+}
+.zj3K9c.fATDae {
+    background-color: #0000;
+}
+.R3Gmyc {
+    background-color: rgb(255 255 255 / 0%);
+}
+.Bs3rEf {
+    background: rgb(255 255 255 / 0%);
+}
+.WUFI9b {
+    background: rgb(255 255 255 / 0%);
+    border-left: 1px solid rgb(241 243 244);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255 255 255 / 0%);
+}
+
+}
